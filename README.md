@@ -22,5 +22,7 @@ data
  |----issues_bak.json			github上关于vscode的具有'feature-request'标签的9900个issue的不完全数据
  |----sort_issues_m1.txt		将issues.json中issue按照评论数排序
  |----stopword.txt			停用词表
+ |----val_sorted.json 将每条bug数据计算出一个val值进行排序（val计算方法见报告）
+ |----val_sorted.csv 内容同上，保存成csv方便浏览
 ```
 
