@@ -26,3 +26,27 @@ data
  |----val_sorted.csv 内容同上，保存成csv方便浏览
 ```
 
+### code 文件夹结构
+
+```
+code
+ |----NLP
+ |     |----bert-base-uncased
+ |     |----data
+ |     |     |----bugs.json
+ |     |----dataloader.py
+ |     |----main.py
+ |     |----main_bak.py
+ |----vscode-issues
+ |     |----get_data.py
+ |     |----re_get.py
+ |     |----sort_by_m1.py
+ |     |----tag.py
+ |----clean.py
+ |----format.py
+ |----get_bugs.py
+ |----get_bugs_uni.py
+ |----get_bugs_uni_p.py
+ |----get_bugs_v2.py
+```
+
