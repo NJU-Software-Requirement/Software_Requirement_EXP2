@@ -24,5 +24,7 @@ data
  |----sample.json			没什么用
  |----sort_issues_m1.txt		将issues.json中issue按照评论数排序
  |----stopword.txt			停用词表
+ |----val_sorted.json 将每条bug数据计算出一个val值进行排序（val计算方法见报告）
+ |----val_sorted.csv 内容同上，保存成csv方便浏览
 ```
 
