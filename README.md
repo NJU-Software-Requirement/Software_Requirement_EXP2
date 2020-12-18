@@ -7,8 +7,8 @@ Software_Requirement_EXP2
  |----img                               实验图片
  |----README.md                         您现在看到的文件
  |----lab2.pdf                          实验报告
- ```
- 
+```
+
 ### data文件夹结构
 
 ```
@@ -41,21 +41,19 @@ code
  |----NLP
  |     |----bert-base-uncased
  |     |----data
- |     |     |----bugs.json
- |     |----dataloader.py
- |     |----main.py
- |     |----main_bak.py
+ |     |     |----bugs.json             深度学习所用数据
+ |     |----dataloader.py               加载训练数据
+ |     |----main.py                     深度学习主函数
+ |     |----main_bak.py                 深度学习主函数（备份）
  |----vscode-issues
- |     |----get_data.py
- |     |----re_get.py
- |     |----sort_by_m1.py
- |     |----tag.py
- |----clean.py
- |----format.py
- |----get_bugs.py
- |----get_bugs_uni.py
- |----get_bugs_uni_p.py
- |----get_bugs_v2.py
- |----dataClean0.py
+ |     |----get_data.py                 多线程爬取github上关于vscode的具有'feature-request'标签的issue
+ |     |----re_get.py                   对用get_data.py获取的数据进行检查，将数据不完全的issue重新获取
+ |     |----sort_by_m1.py               将获得的issue数据按照评论数排序
+ |     |----tag.py                      筛选初步爬取的数据以确认emoji数据可能不完整的issue
+ |----format.py                         对用于深度学习的数据进行整理，包括去除非英文字符以及停用词
+ |----get_bugs.py                       多线程爬取bugzilla上最早提出的部分bug
+ |----get_bugs_uni.py                   多线程按照严重性较为均匀的爬取bugzilla上最早提出的部分bug
+ |----get_bugs_uni_p.py                 多线程按照优先级较为均匀的爬取bugzilla上最早提出的部分bug
+ |----dataClean0.py                     对爬取的vscode的issue按照排序值绘图
 ```
 
