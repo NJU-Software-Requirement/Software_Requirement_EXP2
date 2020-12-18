@@ -1,11 +1,18 @@
 # Software_Requirement_EXP2
 我们的实验即将完成，肝报告ing
 
+Software_Requirement_EXP2
+ |----code    实验代码
+ |----data    实验数据
+ |----img    实验图片
+ |----README.md    您现在看到的文件
+ 
+ 
 ### data文件夹结构
 
 ```
 data
- |----data.json				bugzilla最近提出的近10000个bug的数据
+ |----data.json    bugzilla最近提出的近10000个bug的数据
  |----data2.json			bugzilla最早提出的近5000个bug的数据
  |----data_20k.json			bugzilla最早提出的近9000个bug的数据
  |----data_uni.json			bugzilla最早提出的、按照严重性分类较为均匀的近8000个bug的数据
