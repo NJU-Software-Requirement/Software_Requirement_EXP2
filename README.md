@@ -6,6 +6,7 @@ Software_Requirement_EXP2
  |----data                              实验数据
  |----img                               实验图片
  |----README.md                         您现在看到的文件
+ |----lab2.pdf                          实验报告
  ```
  
 ### data文件夹结构
